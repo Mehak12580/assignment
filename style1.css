@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    display: flex;
+    /* Uses flexbox to center everything */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Light shadow under cards. */
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card h1 span {
+    font-size: 16px;
+}
+
+.card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.card ul li {
+   font-size: 16px;
+    margin: 8px 0;
+}
+
+.card ul li.no {
+    color: red;
+    /* Makes  Support text red. */
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Pointer cursor. */
+    font-size: 15px;
+}
+
+button:hover {
+    background: #e60000;
+}
